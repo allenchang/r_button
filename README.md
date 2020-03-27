@@ -1,2 +1,2 @@
-# r_button
+# rbutton
 Get button input / simulate button trigger event
