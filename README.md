@@ -2,7 +2,7 @@
 Get button input / simulate button trigger event
 
 
-###====================================================================================
+### =================================================================
 ## How to write bb, download from Https
 SUMMARY = "bitbake-layers recipe"
 DESCRIPTION = "Recipe created by bitbake-layers"
@@ -18,7 +18,7 @@ S = "${WORKDIR}/${PN}-${PV}"
 
 inherit cmake
 
-###====================================================================================
+### =================================================================
 ## How to write bb, download from git
 
 SUMMARY = "bitbake-layers recipe"
@@ -30,4 +30,4 @@ SRC_URI = "git://github.com/allenchang/rbutton.git;tag=${PV}"
 S = "${WORKDIR}/git"
 
 inherit cmake
-###====================================================================================
+### =================================================================

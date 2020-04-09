@@ -13,6 +13,8 @@
 #include <unistd.h>
 #include <time.h>
 
+int (*func_ptr[])(char*, char*) = {btn_run};
+
 struct label {
     const char *name;
     int value;
